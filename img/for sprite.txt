@@ -1,0 +1,105 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-arrow-down-active {
+    width: 11px;
+    height: 10px;
+    background-position: -5px -5px;
+}
+
+.sprite-arrow-down-black {
+    width: 11px;
+    height: 10px;
+    background-position: -26px -5px;
+}
+
+.sprite-arrow-down-grey {
+    width: 11px;
+    height: 10px;
+    background-position: -47px -5px;
+}
+
+.sprite-arrow-up-active {
+    width: 11px;
+    height: 10px;
+    background-position: -68px -5px;
+}
+
+<i class="sprite sprite-arrow-down-active"></i>
+<i class="sprite sprite-arrow-down-black"></i>
+<i class="sprite sprite-arrow-down-grey"></i>
+<i class="sprite sprite-arrow-up-active"></i>
+<i class="sprite sprite-arrow-up-black"></i>
+<i class="sprite sprite-arrow-up-grey"></i>
+<i class="sprite sprite-basket-2"></i>
+<i class="sprite sprite-cheched"></i>
+<i class="sprite sprite-checked-off"></i>
+<i class="sprite sprite-circle"></i>
+<i class="sprite sprite-circle-dotted"></i>
+<i class="sprite sprite-fb-2"></i>
+<i class="sprite sprite-inst-2"></i>
+<i class="sprite sprite-vk-2"></i>
+
+.sprite-arrow-up-black {
+    width: 11px;
+    height: 10px;
+    background-position: -5px -25px;
+}
+
+.sprite-arrow-up-grey {
+    width: 11px;
+    height: 10px;
+    background-position: -26px -25px;
+}
+
+.sprite-basket-2 {
+    width: 15px;
+    height: 15px;
+    background-position: -47px -25px;
+}
+
+.sprite-cheched {
+    width: 27px;
+    height: 23px;
+    background-position: -5px -50px;
+}
+
+.sprite-checked-off {
+    width: 23px;
+    height: 23px;
+    background-position: -72px -25px;
+}
+
+.sprite-circle {
+    width: 25px;
+    height: 25px;
+    background-position: -42px -58px;
+}
+
+.sprite-circle-dotted {
+    width: 25px;
+    height: 25px;
+    
+}
+
+.sprite-fb-2 {
+    width: 12px;
+    height: 22px;
+    background-position: -105px -40px;
+}
+
+.sprite-inst-2 {
+    width: 21px;
+    height: 21px;
+    background-position: -77px -72px;
+}
+
+.sprite-vk-2 {
+    width: 26px;
+    height: 15px;
+    background-position: -5px -103px;
+}
+

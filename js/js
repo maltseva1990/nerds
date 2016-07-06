@@ -1,0 +1,39 @@
+  var iframe = document.createElement("iframe");
+         iframe.onload = function() {
+         var doc = iframe.contentDocument;
+
+         iframe.contentWindow.showNewMap = function() {
+         var mapContainer =  doc.createElement('div');
+         mapContainer.setAttribute('style',"width: 880px; height: 410px");
+         doc.body.appendChild(mapContainer);
+
+        var mapOptions = {
+        center: new this.google.maps.LatLng(-35.000009, -58.197645),
+        zoom: 5,
+        mapTypeId: this.google.maps.MapTypeId.ROADMAP
+    }
+
+         var map = new this.google.maps.Map(mapContainer,mapOptions);
+}
+
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&' + 'callback=showNewMap';
+        iframe.contentDocument.getElementsByTagName('head')[0].appendChild(script);
+};
+            var link = document.querySelector(".write-us");
+            var popup = document.querySelector(".modal-content");
+            var close = document.querySelector(".modal-content-close");
+
+            var login = popup.querySelector("[name='write-us']");
+            var password = popup.querySelector("[name='password']");
+
+            link.addEventListener("click", function(event) {
+                event.preventDefault();
+                popup.classList.add("modal-content-show");
+            });
+
+            close.addEventListener("click", function(event) {
+                event.preventDefault();
+                popup.classList.remove("modal-content-show");
+            });
